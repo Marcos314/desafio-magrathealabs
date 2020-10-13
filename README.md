@@ -8,39 +8,40 @@ O desafio consiste em duas partes:
 2. Construção de visualizações dos dados carregados.
 
 
-
-Links importantes:
-- [Informações sobre layout de dados](http://www.mdic.gov.br/index.php/comercio-exterior/estatisticas-de-comercio-exterior/base-de-dados-do-comercio-exterior-brasileiro-arquivos-para-download
-)
-- [Dados de Exportações](http://www.mdic.gov.br/balanca/bd/comexstat-bd/ncm/EXP_COMPLETA.zip)
-- [Dados de Importações](http://www.mdic.gov.br/balanca/bd/comexstat-bd/ncm/IMP_COMPLETA.zip)
-
-Layout: CO_ANO;CO_MES;CO_NCM;CO_UNID;CO_PAIS;SG_UF_NCM(sigla UF origem/destino da NCM);CO_VIA;CO_URF(Unidade da Receita Federal);QT_ESTAT;KG_LIQUIDO;VL_FO
-
 ### Stack Tecnológica:
 
-- Airflow: https://airflow.apache.org/
-- PostgresSQL:
-- Docker:
-- GeoPandas:
-- Metabase/Datapane:
+- PostgresSQL: https://www.postgresql.org/
+- Docker: https://www.docker.com/
+- Metabase: https://www.metabase.com/
 - Linguagens de programação: Shell Script e Python.
-### Decisões arquiteturais:
-O Airflow foi escolhido para orquestrar a pipeline de dados por ser flexível e permitir organizar os passos com facilidades. Também devido ao requisito relacionado ao download e carregamento automatizado dos dados em um banco para análise de forma periódica e a criação de uma rotina de verificação de qualidade dos dados importados.
-
-
-### Modelagem dos dados
+- 
 
 ### Execução do projeto
 
-    # Instalação
-    $ sudo docker pull puckel/docker-airflow
+- **Extração dos dados**
+    
+        $ ./download_dados.sh
 
-    # Repositório com os demais executores (Postgres)
-    $ git clone https://github.com/puckel/docker-airflow.git
+- **Carregamento no banco de dados**
+    
+    Esse script shell ira executar os arquivos create_table.py e insert_data.py respectivamente. 
 
-    # Iniciando os demais executores
-    docker-compose -f docker-compose-LocalExecutor.yml up -d
+        $ ./elt.sh
 
 
-### Criação das DAGs
+
+    $  docker pull metabase/metabase
+
+
+- **Visualização**
+
+    O dashboard foi criado usando a ferramenta metabase, para o uso da mesma foi necessário obter a sua imagem docker.
+
+        $ docker pull metabase/metabase
+    
+    Para a execução da imagem utilizou-se o seguinte comando:
+
+        $ docker run -d -p 3000:3000 --net=host --name metabase metabase/metabase
+
+
+A flag " *--net=host* " foi utilizada para que o metabase pudesse acessar o postgres localmente. 
