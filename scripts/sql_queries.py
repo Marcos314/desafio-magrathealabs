@@ -38,3 +38,17 @@ create_table_importacao = """
 
 create_table_queries = [create_table_exportacao, create_table_importacao]
 drop_table_queries = [drop_exportacao,drop_importacao]
+
+
+# Schema BigQuery
+# ano:INTEGER,
+# mes:INTEGER,
+# produto: STRING,
+# CO_UNID: Integer,
+# CO_PAIS: STRING,
+# uf: STRING,
+# CO_VIA: Integer,
+# CO_URF: STRING,
+# QT_ESTAT: STRING,
+# KG_LIQUIDO: STRING,
+# VL_FOB: STRING
