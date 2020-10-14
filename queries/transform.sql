@@ -1,1 +1,0 @@
-UPDATE exportacao SET co_mes = REPLACE(co_mes, '\"','')
