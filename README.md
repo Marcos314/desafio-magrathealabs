@@ -44,4 +44,4 @@ O desafio consiste em duas partes:
         $ docker run -d -p 3000:3000 --net=host --name metabase metabase/metabase
 
 
-A flag " *--net=host* " foi utilizada para que o metabase pudesse acessar o postgres localmente. 
+    A flag " *--net=host* " foi utilizada para que o metabase pudesse acessar o postgres localmente. 
