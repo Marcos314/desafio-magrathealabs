@@ -55,7 +55,7 @@ def main():
     """ A função main será responsável por fornecer as configurações necessárias para a realização da 
         conexão com o postgreSQL """    
 
-    #create_database()
+    create_database()
 
     conn = pg.connect("host='35.199.113.132' dbname=dadospublicos user=postgres password='postgres123'")
     cur = conn.cursor()
