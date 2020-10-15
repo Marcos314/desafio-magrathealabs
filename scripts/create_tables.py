@@ -12,8 +12,8 @@ import sh
 # Módulo interno
 from sql_queries import create_table_queries, drop_table_queries
 
-def create_database():
 
+def create_database():
 
     con = pg.connect(dbname='postgres',
         user='postgres', host='35.199.113.132',
@@ -39,9 +39,7 @@ def drop_tables(cur, conn):
             print("Não foi possível deletar a tabela")
 
 def create_tables(cur, conn):
-    """
-    Essa função irá realizar a criação das tabelas no postgreSQL.
-    """
+    """Essa função irá realizar a criação das tabelas no postgreSQL."""
     for query in create_table_queries:
         try:            
             cur.execute(query)
@@ -57,7 +55,7 @@ def main():
     """ A função main será responsável por fornecer as configurações necessárias para a realização da 
         conexão com o postgreSQL """    
 
-    create_database()
+    #create_database()
 
     conn = pg.connect("host='35.199.113.132' dbname=dadospublicos user=postgres password='postgres123'")
     cur = conn.cursor()
