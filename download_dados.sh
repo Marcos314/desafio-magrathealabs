@@ -1,8 +1,7 @@
 #!/bin/bash
 
 # Criação do diretório onde ficarão os arquivos csv
-
-echo "--- Download dos dados ---"
+mkdir dados
 
 # Download e descompactação do arquivo csv
 wget http://www.mdic.gov.br/balanca/bd/comexstat-bd/ncm/EXP_COMPLETA.zip
