@@ -9,6 +9,7 @@ import csv
 
 def cleaning(path):
 
+    """Remoção de aspas duplas nos dados"""
     files = [f for f in os.listdir(path) if f.endswith('.csv')]
 
     
@@ -24,6 +25,8 @@ def cleaning(path):
         sh.sed("-i", "s/\"//g", path+'/'+filename)   #Remover aspas duplas
 
 def upload_to_database(cur, conn, path):
+
+    """Função responsável por enviar os dados csv para o Cloud SQL através da função copy_from()"""
 
     try:
 
