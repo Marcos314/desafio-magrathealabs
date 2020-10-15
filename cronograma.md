@@ -11,11 +11,10 @@
  - Download dos dados;
  - Armazenamento dos dados no database;
 
- - 
 ## Dia 3 (10/10)
  - Resultados do dia anterior (ferramentas a serem utilizadas);
- - Download dos dados; OK
- - Armazenamento dos dados no database; ok
+ - Download dos dados;
+ - Armazenamento dos dados no database;
 
 ## Dia 4 (11/10) (15 as 22hs sem internet)
  - Análise dos dados
