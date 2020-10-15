@@ -39,5 +39,5 @@ Gostaria de agradecer a MAGRATHEA por ter me dado a oportunidade de mostrar um p
   
 ## Visualização
 
-encurtador.com.br/gFSTU
+- [Dashboard Exportação/Importação](encurtador.com.br/gFSTU)
 
