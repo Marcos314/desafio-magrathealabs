@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 Pipeline 
 chmod +x download_dados.sh
