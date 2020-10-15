@@ -6,30 +6,13 @@
 
 **2 - Construção de visualizações dos dados carregados**
 
-- **Desenvoledor**: Marcos Wesley Soares Alves <a href="https://github.com/Marcos314" style="margin-left: 8px;"> <img alt="Made by marcos-wesley" src="https://img.shields.io/badge/-GitHub-grey?style=flat&logo=GitHub&logoColor=white&link=https://github.com/Marcos314">
+- **Desenvoledor**: Marcos Wesley Soares Alves <a href="https://github.com/Marcos314" style="margin-left: 8px;">
+<img alt="Made by marcos-wesley" src="https://img.shields.io/badge/-GitHub-grey?style=flat&logo=GitHub&logoColor=white&link=https://github.com/Marcos314">
 </a> <a href="https://www.linkedin.com/in/marcos-wesley-357951137/"> <img alt="Made by marcos-wesley" src="https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/marcos-wesley-357951137/">
 </a>
 
 
 </a>
-<br/><br/><br/>
-
-<p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;   
-  <a href="#-agradecimentos">Agradecimentos</a> 
-</p>
-
-<p align="center">
-   
-   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/marcos314/Pibiti_2019?color=g">
-
-   <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/marcos314/Pibiti_2019">
-
-   <img alt="GitHub stars" src="https://img.shields.io/github/stars/marcos314/Pibiti_2019?style=social">
-   
-  </a>
-</p>
 
 
 ## 🚀 Tecnologias
