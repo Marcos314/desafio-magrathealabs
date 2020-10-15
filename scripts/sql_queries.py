@@ -44,11 +44,11 @@ drop_table_queries = [drop_exportacao,drop_importacao]
 # ano:INTEGER,
 # mes:INTEGER,
 # produto: STRING,
-# CO_UNID: Integer,
+# CO_UNID: INTEGER,
 # CO_PAIS: STRING,
 # uf: STRING,
-# CO_VIA: Integer,
+# CO_VIA: INTEGER,
 # CO_URF: STRING,
 # QT_ESTAT: STRING,
 # KG_LIQUIDO: STRING,
-# VL_FOB: STRING
+# VL_FOB: INTEGER
