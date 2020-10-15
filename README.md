@@ -39,9 +39,7 @@ Gostaria de agradecer a MAGRATHEA por ter me dado a oportunidade de mostrar um p
   
 ## Visualização
 
-<<<<<<< HEAD
+
 - [Dashboard Exportação/Importação](https://datastudio.google.com/reporting/dabd4ae7-7dcd-4887-baa7-d76d7ad091b6)
-=======
-- [Dashboard Exportação/Importação](encurtador.com.br/gFSTU)
->>>>>>> 91a6e3fc4e2a2e4ad37b1462a25498b00057929e
+
 
