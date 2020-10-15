@@ -19,7 +19,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Google BigQuery](https://cloud.google.com/bigquery)
 - [Google DataStudio](https://datastudio.google.com/u/0/navigation/)
 
-...
+
 
 
 ## Projeto
@@ -39,5 +39,5 @@ Gostaria de agradecer a MAGRATHEA por ter me dado a oportunidade de mostrar um p
   
 ## Visualização
 
-encurtador.com.br/gFSTU
+- [Dashboard Exportação/Importação](https://datastudio.google.com/reporting/dabd4ae7-7dcd-4887-baa7-d76d7ad091b6)
 
