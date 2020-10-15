@@ -1,12 +1,10 @@
-# Desafio Magrathea Labs - Engenharia de dados
+# Pipeline Local
 
-O estudo abaixo visa analisar os dados públicos disponibilizados pelo governo referentes ao volume de importações e exportações do país.
+<div align='center'>
+    <img src="./images/arquitetura_magrathea_local.png">
+</div>
 
-O desafio consiste em duas partes: 
-
-1. Carregamento e armazenamento dos dados
-2. Construção de visualizações dos dados carregados.
-
+Inicialmente foi pensando em realizar a extração dos dados e carregar em um banco de dados PostgreSQL e conectar o Metabase para a criação dos Dashboards. Todo esse processo foi realizado no entanto como não foi possível a disponibilização do dashboard publicamente foi pensado em outra abordagem.
 
 ### Stack Tecnológica:
 
@@ -28,9 +26,7 @@ O desafio consiste em duas partes:
 
         $ ./elt.sh
 
-
-
-    $  docker pull metabase/metabase
+        $  docker pull metabase/metabase
 
 
 - **Visualização**
@@ -44,4 +40,25 @@ O desafio consiste em duas partes:
         $ docker run -d -p 3000:3000 --net=host --name metabase metabase/metabase
 
 
-    A flag " *--net=host* " foi utilizada para que o metabase pudesse acessar o postgres localmente. 
+    A flag " *--net=host* " foi utilizada para que o metabase pudesse acessar o postgres localmente.
+
+    
+
+- A seguir é possível observar como ficou o Dashboard desenvolvido no Metabase.
+
+
+<div align='center'>
+    <img src="./images/metabase1.png">
+</div>
+
+<div align='center'>
+    <img src="./images/metabase2.png">
+</div>
+
+<div align='center'>
+    <img src="./images/metabase3.png">
+</div>
+
+<div align='center'>
+    <img src="./images/metabase4.png">
+</div>

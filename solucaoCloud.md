@@ -1,18 +1,8 @@
 # Pipeline usando o Google Cloud Platform (GCP)
 
-
-
-
 <div align='center'>
     <img src="./images/processCloud2.png">
 </div>
-
-
-
-
-
-
-
 
 ### Stack Tecnológica:
 
@@ -35,9 +25,7 @@
     <div align='center'>
         <img src="./images/instanciasql2.png">
     </div>
-
-
-
+    
     Após a criação da instância será fornecido um endereço IP público que será usado para conectar ao banco de dados.
 
 
@@ -61,7 +49,7 @@ A extração e carregamento dos dados será realizado através de scripts shell 
     python3 scripts/create_tables.py     # Criação das tabelas no Cloud SQL
     python3 scripts/insert_data.py       # Inserir os dados do arquivo .csv para o Cloud SQL
 
-Esses scripts foram excutados localmente através do acesso so CloudSQL via Google SDK. É possível encontrar como fazer a instalação através do link: https://cloud.google.com/sdk/docs/install?hl=pt-br#deb
+Esses scripts foram excutados localmente através do acesso so CloudSQL via Google SDK. É possível encontrar como fazer a instalação através do link: [Instalação Google SDK](https://cloud.google.com/sdk/docs/install?hl=pt-br#deb)
 
 Para acessar o Cloud SQL foi usado o seguinte comando e inserindo quando solicidato a senha do usuário que configuramos
 
@@ -87,6 +75,4 @@ Para acessar o Cloud SQL foi usado o seguinte comando e inserindo quando solicid
 
 ## BigQuery
 
-Foi utilizado para fazer algumas consultas SQL com o objetivo de responder as questões solicitadas e então com o auxílio do DataStudio, foi construído um dashboard que pode ser acessado através do link abaixo:
-
-encurtador.com.br/gFSTU
+Foi utilizado para fazer algumas consultas SQL (as queries utilizadas podem ser encontradas na pasta *queries*) com o objetivo de responder as questões solicitadas e então com o auxílio do DataStudio foi realizado a criação do Dashboard.
