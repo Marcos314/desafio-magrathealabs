@@ -37,3 +37,6 @@ Layout: CO_ANO;CO_MES;CO_NCM;CO_UNID;CO_PAIS;SG_UF_NCM(sigla UF origem/destino d
 
 ## Tabela Exportações
     Total de linhas: 22.648.636
+
+## Tempo aproximando de duração da execução dos scripts python
+     20 min

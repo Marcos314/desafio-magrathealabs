@@ -1,47 +1,66 @@
-# Desafio Magrathea Labs - Engenharia de dados
+<h1 align="center">    
+    Desafio para vaga em engenharia de dados - Magrathea Labs
+</h1>
 
-O estudo abaixo visa analisar os dados públicos disponibilizados pelo governo referentes ao volume de importações e exportações do país.
+**1 - Carregamento e armazenamento dos dados**
 
-O desafio consiste em duas partes: 
+**2 - Construção de visualizações dos dados carregados**
 
-1. Carregamento e armazenamento dos dados
-2. Construção de visualizações dos dados carregados.
-
-
-### Stack Tecnológica:
-
-- PostgresSQL: https://www.postgresql.org/
-- Docker: https://www.docker.com/
-- Metabase: https://www.metabase.com/
-- Linguagens de programação: Shell Script e Python.
-- 
-
-### Execução do projeto
-
-- **Extração dos dados**
-    
-        $ ./download_dados.sh
-
-- **Carregamento no banco de dados**
-    
-    Esse script shell ira executar os arquivos create_table.py e insert_data.py respectivamente. 
-
-        $ ./elt.sh
+- **Desenvoledor**: Marcos Wesley Soares Alves <a href="https://github.com/Marcos314" style="margin-left: 8px;"> <img alt="Made by marcos-wesley" src="https://img.shields.io/badge/-GitHub-grey?style=flat&logo=GitHub&logoColor=white&link=https://github.com/Marcos314">
+</a> <a href="https://www.linkedin.com/in/marcos-wesley-357951137/"> <img alt="Made by marcos-wesley" src="https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/marcos-wesley-357951137/">
+</a>
 
 
+</a>
+<br/><br/><br/>
 
-    $  docker pull metabase/metabase
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;   
+  <a href="#-agradecimentos">Agradecimentos</a> 
+</p>
+
+<p align="center">
+   
+   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/marcos314/Pibiti_2019?color=g">
+
+   <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/marcos314/Pibiti_2019">
+
+   <img alt="GitHub stars" src="https://img.shields.io/github/stars/marcos314/Pibiti_2019?style=social">
+   
+  </a>
+</p>
 
 
-- **Visualização**
+## 🚀 Tecnologias
 
-    O dashboard foi criado usando a ferramenta metabase, para o uso da mesma foi necessário obter a sua imagem docker.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-        $ docker pull metabase/metabase
-    
-    Para a execução da imagem utilizou-se o seguinte comando:
+- [Python](https://www.python.org/)
+- [Google Cloud SQL](https://cloud.google.com/sql)
+- [Google Cloud Storage](https://cloud.google.com/storage)
+- [Google BigQuery](https://cloud.google.com/bigquery)
+- [Google DataStudio](https://datastudio.google.com/u/0/navigation/)
 
-        $ docker run -d -p 3000:3000 --net=host --name metabase metabase/metabase
+...
 
 
-    A flag " *--net=host* " foi utilizada para que o metabase pudesse acessar o postgres localmente. 
+## Projeto
+Comece realizando um clone deste projeto, se preferir você também pode baixar como um .zip acessando o site do GitHub
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/Marcos314/desafio-magrathealabs.git
+
+# Acesse a pasta do projeto pelo terminal
+$ cd desafio-magrathealabs
+```
+
+## Agradecimentos
+
+Gostaria de agradecer a MAGRATHEA por ter me dado a oportunidade de mostrar um pouco das minhas habilidades na área de engenharia e análise de dados. Aprendi bastante durante a semana com o desenvolvimento do projeto.
+  
+## Visualização
+
+encurtador.com.br/gFSTU
+
